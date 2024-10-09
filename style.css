@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background: #F2F2F6;
+}
+
 /*Estilizando MAiN*/
 main {
     height: 635px;
@@ -151,15 +155,133 @@ nav ul li a {
     font-weight: 600;
     line-height: normal;
 }
+
 /*Finalizando Conteudo MAIN*/
 
 /*Estilizando Section CARDS*/
+.titleCards {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
 
+.titleCards h1 {
+    padding-top: 54.16px;
+    color: #0E0E0E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 41px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -2.05px;
+}
 
+.titleCards p {
+    color: rgba(14, 14, 14, 0.70);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.8px;
+    padding-bottom: 61px;
+}
 
+.cards {
+    display: flex;
+    padding: 0px 59px;
+    padding-bottom: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.card1,
+.card2,
+.card3 {
+    display: flex;
+    width: 399px;
+    padding: 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: 0.5px solid rgba(255, 255, 255, 0.20);
+    background: #E7E7E7;
+}
 
+.container1,
+.container2,
+.container3 {
+    display: flex;
+    width: 309px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 34px;
+    flex-shrink: 0;
+}
 
+/*Estilizando h1 dos Cards*/
+.titleLaranja h1,
+.titleRoxo h1,
+.titleVerde h1 {
+    color: #F68B21;
+    font-family: Inter;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.16px;
+    padding-bottom: 10px;
+}
 
+.titleRoxo h1 {
+    color: #484588;
+}
+
+.titleVerde h1 {
+    color: #37B550;
+}
+
+/*Finalizando Estilizacao h1 dos Cards*/
+
+.titleLaranja p, .titleRoxo p, .titleVerde p{
+    color: rgba(14, 14, 14, 0.70);
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.92px;
+}
+
+.botaoLaranja, .botaoRoxo, .botaoVerde{
+    display: flex;
+    width: 312px;
+    height: 62px;
+    padding: 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border-radius: 100px;
+    background: #F68B21;
+}
+
+.botaoRoxo{
+    background: #484588;
+}
+
+.botaoVerde{
+    background: #37B550;
+}
+
+.botaoLaranja a, .botaoRoxo a, .botaoVerde a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
 /*Finalizando Section CARDS*/
-
