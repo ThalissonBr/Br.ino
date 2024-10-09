@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height:100vh;
+    flex-shrink: 0;
+    background: url(assets/BackgroundBrino.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    height: 76px;
+    padding: 15.52px 60px;
+    justify-items: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    border-bottom: 0.5px solid rgba(14, 14, 14, 0.30);
+    background: rgba(14, 14, 14, 0.50);
+backdrop-filter: blur(20px);
+}
+
+.navegacao {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 36px;
+}
+
+.logo {
+    display: flex;
+    padding: 0px 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    list-style: none;
+}
+
+nav ul li a {
+    color: rgba(255, 255, 255, 0.9);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.botaoMenu a {
+    display: flex;
+    width: 176px;
+    height: 54px;
+    padding: 17px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #fff;
+    backdrop-filter: blur(20px);
+    text-decoration: none;
+    color: #37b550;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.conteudoMain {
+    padding: 105px 61px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 68px;
+}
+
+.titlesMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    align-self: stretch;
+}
+
+.titlesMain h1 {
+    width: 1094px;
+    height: 140px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -2.9px;
+}
+
+.titlesMain h2 {
+    color: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1.3px;
+}
+
+.botaoMain{
+    display: flex;
+    height: 54px;
+    padding: 18px 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border-radius: 100px;
+    border: 1px solid rgba(90, 177, 142, 0.30);
+    background: #5AB18E;
+    box-shadow: 0px 4px 74px 0px #5AB18E;
+    backdrop-filter: blur(20px);
+}
+
+.botaoMain a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
