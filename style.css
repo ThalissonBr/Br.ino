@@ -7,7 +7,7 @@
 }
 
 main {
-    height:100vh;
+    height: 635px;
     flex-shrink: 0;
     background: url(assets/BackgroundBrino.png);
     background-size: cover;
