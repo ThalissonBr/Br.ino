@@ -265,6 +265,7 @@ nav ul li a {
     gap: 6px;
     border-radius: 100px;
     background: #F68B21;
+    cursor: pointer;
 }
 
 .botaoRoxo{
